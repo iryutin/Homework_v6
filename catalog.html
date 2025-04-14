@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Заголовок страницы</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+    <body>
+    <!-- Начало бокового меню -->
+      <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel" style="background-color: black; padding: 20px; color: white ">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLabel">Меню</h5>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li><a href="home.html">Главная</a></li>
+            <li><a href="catalog.html">Категории</a></li>
+            <li><a href="orders.html">Заказы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropup
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="home.html">Главная</a></li>
+              <li><a href="catalog.html">Категории</a></li>
+              <li><a href="orders.html">Заказы</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- Основная часть страницы -->
+      <div class="content">
+        <!-- Кнопка на бокового меню -->
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas">
+          Меню
+        </a>
+        <!-- Остальное -->
+        <h1 class="text-center">Каталог</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img\crokodil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-secondary">Left</button>
+                  <button type="button" class="btn btn-outline-secondary">Right</button>
+                </div>
+                <p>9 mins</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img\crokodil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-secondary">Left</button>
+                  <button type="button" class="btn btn-outline-secondary">Right</button>
+                </div>
+                <p>9 mins</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img\crokodil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-secondary">Left</button>
+                  <button type="button" class="btn btn-outline-secondary">Right</button>
+                </div>
+                <p>9 mins</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img\crokodil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="Basic outlined example">
+                  <button type="button" class="btn btn-outline-secondary">Left</button>
+                  <button type="button" class="btn btn-outline-secondary">Right</button>
+                </div>
+                <p>9 mins</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
